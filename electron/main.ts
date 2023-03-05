@@ -9,7 +9,6 @@ process.env.VITE_PUBLIC = process.env.VITE_DEV_SERVER_UR
 
 process.env['ELECTRON_DISABLE_SECURITY_WARNINGS'] = 'true'
 
-
 let win: BrowserWindow | null;
 
 const preload = path.join(process.env.DIST, 'preload.js')
